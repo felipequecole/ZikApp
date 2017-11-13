@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/frankson/AndroidStudioProjects/ZikApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/frankson/AndroidStudioProjects/ZikApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
