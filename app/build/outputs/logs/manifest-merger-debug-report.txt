@@ -1,0 +1,98 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/frankson/.android/build-cache/22ccdd0449040dd645d0674c1225a9407365d3ba/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/frankson/.android/build-cache/3a80ac3ef16be2523429ae3316b0a9f93f0a447d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/frankson/.android/build-cache/64f5cc46fc610937deb43198fdad49cc6db8d8b3/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/frankson/.android/build-cache/b7ebf6a80630193d7d7266d46391442c4906c7f4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/frankson/.android/build-cache/59a5b89085e837905e317d847ff2c0c8f602ca4c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/frankson/.android/build-cache/46b1982c7d06cd9a9e0e6279c85d648459ef7768/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/frankson/.android/build-cache/2aec388a1c728414b9c6fea687d1b028cb7ba8d6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/frankson/.android/build-cache/b68ad5b530538f1402925ad1ec828de9118f79ea/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/frankson/.android/build-cache/e05d18ff960a7ed1bce3a7c470caa0ab7a8540e1/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.frankson.zikapp.MainScreens
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:13:13-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/frankson/.android/build-cache/22ccdd0449040dd645d0674c1225a9407365d3ba/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/frankson/.android/build-cache/3a80ac3ef16be2523429ae3316b0a9f93f0a447d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/frankson/.android/build-cache/eb1c2f6565942c2b89ff56aa7a3ecb6e80c68bba/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/frankson/.android/build-cache/64f5cc46fc610937deb43198fdad49cc6db8d8b3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/frankson/.android/build-cache/b7ebf6a80630193d7d7266d46391442c4906c7f4/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/frankson/.android/build-cache/59a5b89085e837905e317d847ff2c0c8f602ca4c/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/frankson/.android/build-cache/46b1982c7d06cd9a9e0e6279c85d648459ef7768/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/frankson/.android/build-cache/2aec388a1c728414b9c6fea687d1b028cb7ba8d6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/frankson/.android/build-cache/b68ad5b530538f1402925ad1ec828de9118f79ea/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/frankson/.android/build-cache/5f35bf24dc0d592284c21a3479b467fba0684d73/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/frankson/.android/build-cache/e05d18ff960a7ed1bce3a7c470caa0ab7a8540e1/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/frankson/.android/build-cache/22ccdd0449040dd645d0674c1225a9407365d3ba/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/frankson/.android/build-cache/3a80ac3ef16be2523429ae3316b0a9f93f0a447d/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/frankson/.android/build-cache/eb1c2f6565942c2b89ff56aa7a3ecb6e80c68bba/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/frankson/.android/build-cache/64f5cc46fc610937deb43198fdad49cc6db8d8b3/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/frankson/.android/build-cache/b7ebf6a80630193d7d7266d46391442c4906c7f4/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/frankson/.android/build-cache/59a5b89085e837905e317d847ff2c0c8f602ca4c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/frankson/.android/build-cache/46b1982c7d06cd9a9e0e6279c85d648459ef7768/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/frankson/.android/build-cache/2aec388a1c728414b9c6fea687d1b028cb7ba8d6/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/frankson/.android/build-cache/b68ad5b530538f1402925ad1ec828de9118f79ea/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/frankson/.android/build-cache/e05d18ff960a7ed1bce3a7c470caa0ab7a8540e1/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:26:9-47

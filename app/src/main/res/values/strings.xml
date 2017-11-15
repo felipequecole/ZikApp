@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ZikApp</string>
+    <string name="action_settings">Configurações</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="txtBtAedes">Mostrar mais... aedes</string>
+    <string name="txtBtDoencas">Mostrar mais... doencas</string>
+    <string name="txtBtPrevencao">Mostrar mais... prevenção</string>
+    <string name="txtBtPostos">Mostrar mais... postos</string>
+    <string name="txtBtCampanha">Mostrar mais... campanha</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
