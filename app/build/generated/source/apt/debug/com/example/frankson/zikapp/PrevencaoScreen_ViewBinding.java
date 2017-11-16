@@ -13,19 +13,19 @@ import java.lang.Override;
 public class PrevencaoScreen_ViewBinding implements Unbinder {
   private PrevencaoScreen target;
 
-  private View view2131558536;
+  private View view2131558546;
 
   @UiThread
   public PrevencaoScreen_ViewBinding(final PrevencaoScreen target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, R.id.button_prevencao, "method 'ExibeMsg'");
-    view2131558536 = view;
+    view = Utils.findRequiredView(source, R.id.button_prevencao, "method 'AbreInfo'");
+    view2131558546 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
-        target.ExibeMsg();
+        target.AbreInfo();
       }
     });
   }
@@ -37,7 +37,7 @@ public class PrevencaoScreen_ViewBinding implements Unbinder {
     target = null;
 
 
-    view2131558536.setOnClickListener(null);
-    view2131558536 = null;
+    view2131558546.setOnClickListener(null);
+    view2131558546 = null;
   }
 }

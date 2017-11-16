@@ -1,6 +1,8 @@
 package com.example.frankson.zikapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,12 +26,15 @@ public class CampanhaScreen extends Fragment {
     }
 
     @OnClick(R.id.button_campanha)
-    public void ExibeMsg(){
-        String texto = "Campanha";
-        int i = Toast.LENGTH_SHORT;
+    public void AbreCamera(){
+        Intent intentCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if(intentCamera.resolveActivity(getContext().getPackageManager()) != null) {
+            startActivity(intentCamera);
+        }else {
+            Toast toast = Toast.makeText(getContext(), "Impossível abrir o recurso", Toast.LENGTH_LONG);
+            toast.show();
+        }
 
-        Toast toast = Toast.makeText(this.getContext(), texto ,i);
-        toast.show();
     }
 
 

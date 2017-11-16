@@ -1,4 +1,4 @@
-#Mon Nov 13 18:46:09 BRST 2017
+#Thu Nov 16 18:52:10 BRST 2017
 base.0=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
 renamed.0=classes.dex
 file.0=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex

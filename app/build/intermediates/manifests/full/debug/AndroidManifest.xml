@@ -29,6 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.frankson.zikapp.AedesInfo" />
+        <activity android:name="com.example.frankson.zikapp.DoencasInfo" />
+        <activity android:name="com.example.frankson.zikapp.PostosInfo" />
+        <activity android:name="com.example.frankson.zikapp.PrevencaoInfo" />
     </application>
 
 </manifest>

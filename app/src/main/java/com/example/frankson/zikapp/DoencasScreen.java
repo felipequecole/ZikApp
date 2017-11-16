@@ -1,11 +1,11 @@
 package com.example.frankson.zikapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -24,12 +24,10 @@ public class DoencasScreen extends Fragment {
     }
 
     @OnClick(R.id.button_doencas)
-    public void ExibeMsg(){
-        String texto = "Doenças";
-        int i = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(this.getContext(), texto ,i);
-        toast.show();
+    public void AbreInfo(){
+        Intent abrirInfo;
+        abrirInfo = new Intent(getContext(), DoencasInfo.class);
+        startActivity(abrirInfo);
     }
 
 }

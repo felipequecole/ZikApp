@@ -14,7 +14,12 @@
     <color name="oxford_blue_dark">#2c3946</color>
     <color name="alpha_black_50">#80000000</color>
     <color name="alpha_white_12">#1effffff</color>
+
     <color name="purple_600">#8E24AA</color>
     <color name="purple_800">#6A1B9A</color>
+
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
 
 </resources>
