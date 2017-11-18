@@ -22,7 +22,10 @@
         <activity android:name=".AedesInfo" />
         <activity android:name=".DoencasInfo" />
         <activity android:name=".PostosInfo" />
-        <activity android:name=".PrevencaoInfo"></activity>
+        <activity android:name=".PrevencaoInfo" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>

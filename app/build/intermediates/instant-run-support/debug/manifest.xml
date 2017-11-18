@@ -33,6 +33,9 @@
         <activity android:name="com.example.frankson.zikapp.DoencasInfo" />
         <activity android:name="com.example.frankson.zikapp.PostosInfo" />
         <activity android:name="com.example.frankson.zikapp.PrevencaoInfo" />
+        <activity
+            android:name="com.example.frankson.zikapp.SettingsActivity"
+            android:label="@string/title_activity_settings" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManif
 		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:5:5-26:19
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:5:5-29:19
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/frankson/.android/build-cache/22ccdd0449040dd645d0674c1225a9407365d3ba/output/AndroidManifest.xml:26:5-20
@@ -70,9 +70,15 @@ ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:24:19-45
 activity#com.example.frankson.zikapp.PrevencaoInfo
-ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:25:9-60
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:25:9-51
 	android:name
 		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:25:19-48
+activity#com.example.frankson.zikapp.SettingsActivity
+ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:26:9-28:72
+	android:label
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml:27:13-45
 uses-sdk
 INJECTED from /home/frankson/AndroidStudioProjects/ZikApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/AndroidManifest.xml:21:5-23:62

@@ -1,4 +1,4 @@
-#Thu Nov 16 18:52:09 BRST 2017
+#Sat Nov 18 17:44:27 BRST 2017
 file.2=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f60ffee64d3d570a671a836fee820076574cd9a/classes.dex
 base.2=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f60ffee64d3d570a671a836fee820076574cd9a
 file.1=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_25e8bdb5887de8752b23d8869afe8943ea2ddc31/classes.dex

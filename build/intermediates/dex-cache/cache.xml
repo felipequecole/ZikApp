@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b0d9eaad0c7f88560f293fabda1e5b72468dfa7c">
+        <dex dex="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b30a64b88d2d02c4ceb181b327e828a9e645add/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_667989e6f98b9407ca1962d4c480316e0c8de5b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="162720efafc253f402290c74c5654a74fa04cbd3">
-        <dex dex="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b30a64b88d2d02c4ceb181b327e828a9e645add/classes.dex" />
     </item>
 
 </items>
