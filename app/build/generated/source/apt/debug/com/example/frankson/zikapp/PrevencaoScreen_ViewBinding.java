@@ -13,7 +13,7 @@ import java.lang.Override;
 public class PrevencaoScreen_ViewBinding implements Unbinder {
   private PrevencaoScreen target;
 
-  private View view2131689618;
+  private View view2131624083;
 
   @UiThread
   public PrevencaoScreen_ViewBinding(final PrevencaoScreen target, View source) {
@@ -21,7 +21,7 @@ public class PrevencaoScreen_ViewBinding implements Unbinder {
 
     View view;
     view = Utils.findRequiredView(source, R.id.button_prevencao, "method 'AbreInfo'");
-    view2131689618 = view;
+    view2131624083 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -37,7 +37,7 @@ public class PrevencaoScreen_ViewBinding implements Unbinder {
     target = null;
 
 
-    view2131689618.setOnClickListener(null);
-    view2131689618 = null;
+    view2131624083.setOnClickListener(null);
+    view2131624083 = null;
   }
 }
