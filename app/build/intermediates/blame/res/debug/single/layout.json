@@ -128,6 +128,10 @@
         "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout/about_screen.xml",
+        "source": "/home/frankson/AndroidStudioProjects/ZikApp/app/src/main/res/layout/about_screen.xml"
+    },
+    {
         "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/layout/abc_list_menu_item_layout.xml"
     },
