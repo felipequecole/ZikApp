@@ -13,7 +13,7 @@ import java.lang.Override;
 public class CampanhaScreen_ViewBinding implements Unbinder {
   private CampanhaScreen target;
 
-  private View view2131624080;
+  private View view2131689615;
 
   @UiThread
   public CampanhaScreen_ViewBinding(final CampanhaScreen target, View source) {
@@ -21,7 +21,7 @@ public class CampanhaScreen_ViewBinding implements Unbinder {
 
     View view;
     view = Utils.findRequiredView(source, R.id.button_campanha, "method 'AbreCamera'");
-    view2131624080 = view;
+    view2131689615 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -37,7 +37,7 @@ public class CampanhaScreen_ViewBinding implements Unbinder {
     target = null;
 
 
-    view2131624080.setOnClickListener(null);
-    view2131624080 = null;
+    view2131689615.setOnClickListener(null);
+    view2131689615 = null;
   }
 }
