@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/frankson/.android/build-cache/13e43f023cf0c68f7cdd1d1ab9ce4f0559e85d33/output/res/values/values.xml",
+                    "file": "/home/felipequecole/.android/build-cache/017b52b1e435653642f6861df364d4d12a8a21b9/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

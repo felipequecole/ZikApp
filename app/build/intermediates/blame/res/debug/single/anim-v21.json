@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/felipequecole/.android/build-cache/86c5df1a4fa9bdd1ac44e9610367e9448dc5b9a4/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/frankson/.android/build-cache/58d4dc7d0747e5974512b65a18d70cfe5a885cc2/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/felipequecole/.android/build-cache/86c5df1a4fa9bdd1ac44e9610367e9448dc5b9a4/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     }
 ]

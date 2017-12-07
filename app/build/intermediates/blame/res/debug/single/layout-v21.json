@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/layout-v21/notification_action.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/felipequecole/.android/build-cache/f27051fa3678088984d6ae6cb711308c33f98209/output/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/felipequecole/.android/build-cache/f27051fa3678088984d6ae6cb711308c33f98209/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/felipequecole/.android/build-cache/f27051fa3678088984d6ae6cb711308c33f98209/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/felipequecole/.android/build-cache/f27051fa3678088984d6ae6cb711308c33f98209/output/res/layout-v21/notification_template_custom_big.xml"
     }
 ]

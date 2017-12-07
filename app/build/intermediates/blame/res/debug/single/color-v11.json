@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/felipequecole/.android/build-cache/f27051fa3678088984d6ae6cb711308c33f98209/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/frankson/.android/build-cache/fb6ba3d98aade1a4e08ffdad2f0f0558e1f820e7/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/felipequecole/.android/build-cache/f27051fa3678088984d6ae6cb711308c33f98209/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

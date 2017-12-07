@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
-        "source": "/home/frankson/AndroidStudioProjects/ZikApp/app/src/main/res/drawable-hdpi/logo.png"
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/home/felipequecole/StudioProjects/ZikApp/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_icon.png",
+        "source": "/home/felipequecole/StudioProjects/ZikApp/app/src/main/res/drawable-hdpi/ic_icon.png"
     }
 ]

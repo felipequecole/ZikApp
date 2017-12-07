@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665268905529",
+    "firebase_url": "https://zikapp-mds.firebaseio.com",
+    "project_id": "zikapp-mds",
+    "storage_bucket": "zikapp-mds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665268905529:android:d1e7310de0dec24c",
+        "android_client_info": {
+          "package_name": "com.example.frankson.zikapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665268905529-m91tl495mkrokvlq7r45svaio9ek5uva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.frankson.zikapp",
+            "certificate_hash": "5febc48068b451466b051d38cf29cce7401ea9c2"
+          }
+        },
+        {
+          "client_id": "665268905529-ko0afvktuqjsl6vekencsfv7h0krjp94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_FoC_T7J7N1O58i-izn8msD6-yeRT_Lc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665268905529-ko0afvktuqjsl6vekencsfv7h0krjp94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

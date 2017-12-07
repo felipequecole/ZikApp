@@ -1,7 +1,7 @@
-#Sat Nov 18 20:02:02 BRST 2017
-base.0=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_667989e6f98b9407ca1962d4c480316e0c8de5b5
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b30a64b88d2d02c4ceb181b327e828a9e645add/classes.dex
-base.1=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b30a64b88d2d02c4ceb181b327e828a9e645add
-file.0=/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_667989e6f98b9407ca1962d4c480316e0c8de5b5/classes.dex
+#Thu Dec 07 15:17:13 BRST 2017
+base.0=/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_34a2393340d5bf558aa834fc6d9b7eb7d4962caa
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c012f2d1888fd1b84b2308a2f28e81d7ec1502b6/classes.dex
+base.1=/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c012f2d1888fd1b84b2308a2f28e81d7ec1502b6
+file.0=/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_34a2393340d5bf558aa834fc6d9b7eb7d4962caa/classes.dex

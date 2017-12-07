@@ -1,80 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="23"
-    build-mode="COLD"
-    density="xhdpi"
+    api-level="24"
+    build-mode="FULL"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1511042521632"
-    token="9193625056428858382"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="1512667031779"
+    token="7669250625882117813"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="397" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="7" />
     <task
         name="verifier"
-        duration="0" />
+        duration="71" />
 
     <artifact
-        location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/outputs/apk/app-debug.apk"
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1511042139469"
+        timestamp="1512667031779"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/outputs/apk/app-debug.apk"
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1511042521632"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/frankson/AndroidStudioProjects/ZikApp/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>
