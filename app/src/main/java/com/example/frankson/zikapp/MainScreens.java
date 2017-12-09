@@ -1,6 +1,7 @@
 package com.example.frankson.zikapp;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,6 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -18,6 +20,8 @@ public class MainScreens extends AppCompatActivity {
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
     private ViewPager mViewPager;
+
+    SharedPreferences prefs = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +41,11 @@ public class MainScreens extends AppCompatActivity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        FirebaseMessaging.getInstance().subscribeToTopic("ZikAppMDS");
+        prefs = getSharedPreferences("ZikApp", MODE_PRIVATE);
+        if (prefs.getBoolean("firstrun", true)) {
+            FirebaseMessaging.getInstance().subscribeToTopic("ZikAppMDS");
+            prefs.edit().putBoolean("firstrun", false).commit();
+        }
 
 
     }
@@ -106,4 +114,6 @@ public class MainScreens extends AppCompatActivity {
             return 5;
         }
     }
+
+    
 }

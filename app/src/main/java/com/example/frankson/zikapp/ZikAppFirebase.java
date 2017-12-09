@@ -7,6 +7,11 @@ import android.widget.Toast;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import es.dmoral.toasty.Toasty;
+
+import static android.R.attr.duration;
+import static android.R.attr.y;
+
 public class ZikAppFirebase extends FirebaseMessagingService {
 
 
@@ -18,7 +23,7 @@ public class ZikAppFirebase extends FirebaseMessagingService {
         Handler handler = new Handler(Looper.getMainLooper());
         handler.post(new Runnable() {
             public void run() {
-                Toast.makeText(getBaseContext(),msg,Toast.LENGTH_LONG).show();
+                Toasty.info(getBaseContext(), msg).show();
             }
         });
     }

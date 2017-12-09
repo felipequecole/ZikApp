@@ -7,62 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="19517536eb22bb183ba659d1c661ceb60732b26c">
+        sha1="d7afb5c12eae186d06895ce4cfa3d506e3e84fcb">
         <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_34a2393340d5bf558aa834fc6d9b7eb7d4962caa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/felipequecole/.android/build-cache/6d692799337be666f0dbb89c1b587caf11dd9ffc/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cd96bf314d2dc5e2a8d3549c7a24241515aeb301/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/felipequecole/.android/build-cache/03332e37ac8890966588982a0945662528bd6e1c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d408085664cba464a0036e66224e0b424f9d37a6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/felipequecole/.android/build-cache/bfd7fd2be78571fdbbf761359541ffc9c4514cfc/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_34276a460f82dd7879865f46f89ae7ef290bfbb6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/felipequecole/.android/build-cache/c740ae80f551348480a00e7ea5677c377fcf7c45/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d3609e257addc1e915e0bec7eb4e9ceb8b173814/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/felipequecole/.android/build-cache/6ac589c3fdf0bf2ca5c23ea376d9cc4ee57376e9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9cdd64e6899f860871420b57c3e4f8bac36bfedf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/felipequecole/.android/build-cache/943fb92965c9759dad7c9576a3109889cbd88967/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dbf3d4090f73de2c82786111ce7a5cb2018f205b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -72,15 +18,6 @@
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c012f2d1888fd1b84b2308a2f28e81d7ec1502b6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/felipequecole/.android/build-cache/08af66fc2940a86466bf4b28e4d2d4b30ec48853/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/home/felipequecole/StudioProjects/ZikApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_17f41a2ca17e4c93ff49e9c01296435a883b87d2/classes.dex" />
     </item>
 
 </items>
