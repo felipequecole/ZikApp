@@ -6,32 +6,25 @@
     tools:context="com.example.frankson.zikapp.CampanhaScreen">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/campanha_menor">
 
         <Button
             android:id="@+id/button_campanha"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
             android:layout_marginBottom="65dp"
             android:layout_marginLeft="29dp"
             android:layout_marginRight="29dp"
             android:layout_marginTop="48dp"
-            android:layout_alignParentBottom="true"
             android:background="@drawable/havelock_purple_rounded_corners"
             android:fontFamily="sans-serif-bold"
             android:text="@string/txtBtCampanha"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="17sp" />
-
-        <ImageView
-            android:id="@+id/imagem"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/button_campanha"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="139dp" />
 
     </RelativeLayout>
 

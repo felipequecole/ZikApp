@@ -3,11 +3,11 @@
     <string name="action_settings">Configurações</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
-    <string name="txtBtAedes">Mostrar mais... aedes</string>
-    <string name="txtBtDoencas">Mostrar mais... doencas</string>
-    <string name="txtBtPrevencao">Mostrar mais... prevenção</string>
-    <string name="txtBtPostos">Mostrar mais... postos</string>
-    <string name="txtBtCampanha">Mostrar mais... campanha</string>
+    <string name="txtBtAedes">Sobre o Aedes Aegypt</string>
+    <string name="txtBtDoencas">Doenças relacionadas</string>
+    <string name="txtBtPrevencao">Como combater o mosquito</string>
+    <string name="txtBtPostos">Postos de saúde</string>
+    <string name="txtBtCampanha">Faça parte da campanha!</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

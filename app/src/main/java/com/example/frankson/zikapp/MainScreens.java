@@ -2,11 +2,14 @@ package com.example.frankson.zikapp;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -21,6 +24,8 @@ public class MainScreens extends AppCompatActivity {
 
     private ViewPager mViewPager;
 
+    private Toolbar toolbar;
+
     SharedPreferences prefs = null;
 
     @Override
@@ -28,11 +33,14 @@ public class MainScreens extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screens);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        toolbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#669900")));
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#669900")));
+        getWindow().setStatusBarColor(Color.parseColor("#669900"));
 
-        toolbar.setTitle("");
+        toolbar.setTitle("ZikApp");
         toolbar.setSubtitle("");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.

@@ -8,17 +8,18 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/doencas">
 
         <Button
             android:id="@+id/button_doencas"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
             android:layout_marginBottom="65dp"
             android:layout_marginLeft="29dp"
             android:layout_marginRight="29dp"
             android:layout_marginTop="48dp"
-            android:layout_alignParentBottom="true"
             android:background="@drawable/havelock_purple_rounded_corners"
             android:fontFamily="sans-serif-bold"
             android:text="@string/txtBtDoencas"

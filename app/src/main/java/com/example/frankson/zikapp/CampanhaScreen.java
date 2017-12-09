@@ -1,14 +1,18 @@
 package com.example.frankson.zikapp;
 
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.media.MediaScannerConnection;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.FileProvider;
 import android.util.Log;
@@ -24,6 +28,7 @@ import java.io.IOException;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import es.dmoral.toasty.Toasty;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -33,6 +38,11 @@ public class CampanhaScreen extends Fragment {
     private String caminhoFoto;
     private Uri imageURI;
     private ImageView foto;
+    private static final int REQUEST_EXTERNAL_STORAGE = 1;
+    private static String[] PERMISSIONS_STORAGE = {
+            android.Manifest.permission.READ_EXTERNAL_STORAGE,
+            android.Manifest.permission.WRITE_EXTERNAL_STORAGE
+    };
 
 
     @Override
@@ -41,7 +51,7 @@ public class CampanhaScreen extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_campanha_screen, container, false);
         ButterKnife.bind(this,view);
-        foto = (ImageView) view.findViewById(R.id.imagem);
+        verifyStoragePermissions(getActivity());
         return view;
     }
 
@@ -79,20 +89,29 @@ public class CampanhaScreen extends Fragment {
                         Log.d("Salvar", "apagou");
                     }
                 }
-                String mano = getActivity().getExternalFilesDir(null) + "/caralho_" + System.currentTimeMillis() + ".jpg";
-                FileOutputStream out = new FileOutputStream(saida);
-                MediaStore.Images.Media.insertImage(getContext().getContentResolver(), toFile, "titulo", "descricao");
+//                if (MediaStore.Images.Media.insertImage(getContext().getContentResolver(), toFile,
+//                        "Campanha_"+System.currentTimeMillis() + ".jpg", "Imagem gerada pelo ZikApp") != null) {
+//                    Log.d("Imagem", "salvou");
+//                } else {
+//                    Log.d("Imagem", "deu ruim");
+//                }
+                String mano = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/caralho_" + System.currentTimeMillis() + ".jpg";
+                File fout = new File(mano);
+                fout.createNewFile();
+                FileOutputStream out = new FileOutputStream(fout);
                 toFile.compress(Bitmap.CompressFormat.JPEG, 50, out);
+                out.flush();
                 out.close();
-                //TODO Implementar um MediaScanner para atualizar a galeria
-//                getContext().sendBroadcast(new Intent(Intent.ACTION_MEDIA_MOUNTED, imageURI));
-                Log.d("imagem", "imagem salva");
-                Log.d("imagempodelr", String.valueOf(saida.canWrite()));
+                if (MediaStore.Images.Media.insertImage(getContext().getContentResolver(), mano, "ImagemZikapp.jpg", "imagem do app") != null){
+                    Log.d("Imagem", "Salvou sera");
+                } else {
+                    Log.d("Imagem", "desiste mermao");
+                }
 
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            foto.setImageBitmap(toFile);
+            Toasty.success(getContext(), "Imagem Salva na galeria! :)").show();
         }
     }
 
@@ -110,6 +129,21 @@ public class CampanhaScreen extends Fragment {
         canvas.drawBitmap(marca, (largura - marca.getWidth())/2, altura - marca_largura - 20, null);
         return resultado;
 
+    }
+
+
+    public static void verifyStoragePermissions(Activity activity) {
+        // Check if we have write permission
+        int permission = ActivityCompat.checkSelfPermission(activity, android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
+
+        if (permission != PackageManager.PERMISSION_GRANTED) {
+            // We don't have permission so prompt the user
+            ActivityCompat.requestPermissions(
+                    activity,
+                    PERMISSIONS_STORAGE,
+                    REQUEST_EXTERNAL_STORAGE
+            );
+        }
     }
 
 
