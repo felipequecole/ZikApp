@@ -23,7 +23,7 @@
                 android:id="@+id/imageViewAedes"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:src="@drawable/tela_aedes" />
+                android:src="@drawable/imagem_dengue" />
 
             <TextView
                 android:id="@+id/textViewAedes"
