@@ -47,11 +47,6 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".AedesInfo"
@@ -71,7 +66,15 @@
             android:screenOrientation="portrait" />
         <activity android:name=".DengueInfo" />
         <activity android:name=".ZikaInfo" />
-        <activity android:name=".ChikungunyaInfo"></activity>
+        <activity android:name=".ChikungunyaInfo" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.TelaCheia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>

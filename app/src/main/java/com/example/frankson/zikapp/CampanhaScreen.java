@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
@@ -82,36 +83,11 @@ public class CampanhaScreen extends Fragment {
             Bitmap toFile = null;
             try {
                 imageBitmap = MediaStore.Images.Media.getBitmap(cr, imageURI);
-                toFile = inserirMarcaDagua(imageBitmap);
-                File saida = new File(caminhoFoto);
-                if (saida.exists()) {
-                    if(saida.delete()){
-                        Log.d("Salvar", "apagou");
-                    }
-                }
-//                if (MediaStore.Images.Media.insertImage(getContext().getContentResolver(), toFile,
-//                        "Campanha_"+System.currentTimeMillis() + ".jpg", "Imagem gerada pelo ZikApp") != null) {
-//                    Log.d("Imagem", "salvou");
-//                } else {
-//                    Log.d("Imagem", "deu ruim");
-//                }
-                String mano = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/caralho_" + System.currentTimeMillis() + ".jpg";
-                File fout = new File(mano);
-                fout.createNewFile();
-                FileOutputStream out = new FileOutputStream(fout);
-                toFile.compress(Bitmap.CompressFormat.JPEG, 50, out);
-                out.flush();
-                out.close();
-                if (MediaStore.Images.Media.insertImage(getContext().getContentResolver(), mano, "ImagemZikapp.jpg", "imagem do app") != null){
-                    Log.d("Imagem", "Salvou sera");
-                } else {
-                    Log.d("Imagem", "desiste mermao");
-                }
-
+                new GerarImagem().execute(imageBitmap);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            Toasty.success(getContext(), "Imagem Salva na galeria! :)").show();
+            Toasty.info(getContext(), "Gerando imagem...").show();
         }
     }
 
@@ -143,6 +119,56 @@ public class CampanhaScreen extends Fragment {
                     PERMISSIONS_STORAGE,
                     REQUEST_EXTERNAL_STORAGE
             );
+        }
+    }
+
+
+    private class GerarImagem extends AsyncTask<Bitmap, Boolean, Boolean> {
+        @Override
+        protected Boolean doInBackground(Bitmap... bitmaps) {
+//            Toasty.info(getContext(), "Gerando imagem!").show();
+            Bitmap toFile = null;
+            Bitmap image = bitmaps[0];
+            try {
+                toFile = inserirMarcaDagua(image);
+            } catch (Exception e) {
+                e.printStackTrace();
+                return false;
+            }
+            File saida = new File(caminhoFoto);
+            if (saida.exists()) {
+                if(saida.delete()){
+                    Log.d("Salvar", "apagou");
+                }
+            }
+            String mano = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/caralho_" + System.currentTimeMillis() + ".jpg";
+            File fout = new File(mano);
+            try {
+                fout.createNewFile();
+                FileOutputStream out = new FileOutputStream(fout);
+                toFile.compress(Bitmap.CompressFormat.JPEG, 50, out);
+                out.flush();
+                out.close();
+                if (MediaStore.Images.Media.insertImage(getContext().getContentResolver(), mano, "ImagemZikapp.jpg", "imagem do app") != null){
+                    Log.d("Imagem", "Salvou sera");
+                    return true;
+                } else {
+                    Log.d("Imagem", "desiste mermao");
+                    return false;
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+                return false;
+            }
+        }
+
+        @Override
+        protected void onPostExecute(Boolean aBoolean) {
+            if (aBoolean){
+                Toasty.success(getContext(), "Imagem salva na galeria! :)").show();
+            } else {
+                Toasty.error(getContext(), "Oops, algo deu errado! :(").show();
+            }
         }
     }
 
