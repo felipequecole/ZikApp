@@ -3,6 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="verde_legal">#669900</color>
 
     <color name="white">#FFFFFF</color>
     <color name="blue_chalk">#ECD7FF</color>
@@ -18,7 +19,7 @@
     <color name="purple_600">#8E24AA</color>
     <color name="purple_800">#6A1B9A</color>
 
-    <color name="gray_600">#757575</color>
+    <color name="gray_600">#dddddd</color>
     <color name="gray_700">#616161</color>
     <color name="gray_800">#424242</color>
 
