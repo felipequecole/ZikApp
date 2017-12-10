@@ -1,8 +1,6 @@
 package com.example.frankson.zikapp;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -25,8 +23,7 @@ public class DoencasInfo extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Doenças causadas");
         actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.verde_legal)));
-        getWindow().setStatusBarColor(getResources().getColor(R.color.verde_legal));
+
 
         List doencas = new ArrayList<String>();
         doencas.add("Dengue");
