@@ -21,16 +21,84 @@
     <string name="sobre_app">
         Aplicativo desenvolvido por: \n\n
         \t Eduardo Yamauchi \n
-        \t Felipe Quecole \n
+        \t Felipe Quécole \n
         \t Frankson Teotonho \n
         \t Italo José
 
     </string>>
 
+    <string name="dengue_info">
+        \tA Dengue é uma virose, ou seja, uma doença causada por vírus. O vírus é transmitido para uma pessoa através da picada da fêmea contaminada do mosquito Aedes Aegypti.\n
+        \tA doença pode se manifestar de duas formas: a dengue clássica e a dengue hemorrágica, a segunda ocorre quando a pessoa pega a doença por uma segunda vez.
+    </string>
+
+    <string name="dengue_sintomas">
+        Dengue clássica:\n
+        \t - Febre alta \n
+        \t - Enjoos e vômitos \n
+        \t - Dor de cabeça e no fundo dos olhos \n
+        \t - Manchas vermelhas na pele \n
+        \t - Mal-estar e cansaço extremo \n
+        \t - Dor abdominal, nos ossos e nas articulações\n\n
+        Dengue hemorrágica:\n
+        \t - Confusão mental \n
+        \t - Irritação nos olhos \n
+        \t - Agitação e sonolência \n
+        \t - Sangramentos pelo nariz e gengiva \n
+        \t - Vômitos persistentes \n
+        \t - Urina com sangue
+    </string>
+
+    <string name="dengue_tratamento">
+        \tO tratamento da dengue é feito com analgésicos e antitérmicos, sob orientação médica, tais como Paracetamol e Dipirona para aliviar os sintomas. Não se deve tomar nenhum medicamento à base de Ácido Acetilsalicílico, como aspirina ou AAS, porque podem provocar hemorragia. Para completar o tratamento é recomendado também repouso e ingestão de líquidos.\n
+        \tJá o tratamento da dengue hemorrágica deve ser feito em meio hospitalar, com o uso de medicamentos e transfusão de plaquetas.\n\n
+    </string>
+
+    <string name="zika_info">
+        \tA doença do vírus Zika é causada por um vírus transmitido principalmente pelo mosquito Aedes.\n
+        \tExiste consenso científico de que o vírus Zika é a causa da microcefalia e da síndrome de Guillain-Barré. Está igualmente a ser investigada a eventual ligação com outras complicações neurológicas.
+    </string>
+
+    <string name="zika_sintomas">
+        Os sintomas são semelhantes aos de outras infecções por arbovírus, como a dengue:\n
+        \t - Febre \n
+        \t - Erupções cutâneas\n
+        \t - Conjuntivite\n
+        \t - Dores nos músculos e nas articulações\n
+        \t - Mal-estar ou dor de cabeça. \n
+        Estes sintomas são, normalmente, ligeiros e duram 2-7 dias.
+    </string>
+
+    <string name="zika_tratamento">
+        \tA doença do vírus Zika é, normalmente, ligeira e não exige tratamento específico. As pessoas doentes com o vírus Zika devem repousar muito, beber muitos líquidos e tratar a dor e a febre com os medicamentos normais. Se os sintomas piorarem, devem procurar cuidados médicos e aconselhamento. Atualmente, não existe nenhuma vacina disponível.\n\n
+    </string>
+
+
+    <string name="chico_info">
+        \tChikungunya significa “aqueles que se dobram” em swahili, um dos idiomas da Tanzânia. Refere-se à aparência curvada dos pacientes que foram atendidos na primeira epidemia documentada, na Tanzânia, localizada no leste da África, entre 1952 e 1953.
+    </string>
+
+    <string name="chico_sintomas">
+        \t - Febre acima de 39 graus, de início repentino\n
+        \t - Dores intensas nas articulações de pés e mãos – dedos, tornozelos e pulsos\n
+        \t - Dor de cabeça\n
+        \t - Dores nos músculos\n
+        \t - Manchas vermelhas na pele\n
+        Cerca de 30% dos casos não chegam a desenvolver sintomas.
+    </string>
+
+    <string name="chico_tratamento">
+        \tAté o momento não existe um tratamento específico para Chikungunya, como no caso da dengue. Os sintomas são tratados com medicação para a febre (paracetamol) e as dores articulares (antiinflamatórios). Não é recomendado usar o ácido acetil salicílico (AAS) devido ao risco de hemorragia. Recomenda‐se repouso absoluto ao paciente, que deve beber líquidos em abundância.\n\n
+    </string>
+
+
     <!-- Example settings for Notifications -->
     <string name="pref_header_notifications">Notificações</string>
 
     <string name="pref_title_new_message_notifications">Receber notificações</string>
+    <string name="sintomas">Sintomas</string>
+    <string name="tratamento">Tratamento</string>
+    <string name="informa_es_importantes">Informações importantes</string>
 
     <string name="AedesText">
 

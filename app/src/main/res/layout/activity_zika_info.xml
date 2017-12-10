@@ -4,14 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.frankson.zikapp.ZikaInfo">
+    tools:context="com.example.frankson.zikapp.zikaInfo">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ZikaInfo"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/informa_es_importantes"
+                android:textColor="@color/verde_legal"
+                android:textSize="24sp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="4dp"/>
+
+            <TextView
+                android:id="@+id/zika_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zika_info"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="12dp"
+                android:layout_marginEnd="8dp"
+                android:paddingTop="4dp"/>
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sintomas"
+                android:textColor="@color/verde_legal"
+                android:textSize="24sp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:id="@+id/zika_sintomas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zika_sintomas"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="12dp"
+                android:layout_marginEnd="8dp"
+                android:paddingTop="4dp"/>
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tratamento"
+                android:textColor="@color/verde_legal"
+                android:textSize="24sp"
+                android:layout_marginStart="8dp"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:id="@+id/zika_tratamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zika_tratamento"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingStart="12dp"
+                android:layout_marginEnd="8dp"
+                android:paddingTop="4dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--tools:layout_editor_absoluteX="16dp"-->
+    <!--tools:layout_editor_absoluteY="16dp"-->
 
 </RelativeLayout>

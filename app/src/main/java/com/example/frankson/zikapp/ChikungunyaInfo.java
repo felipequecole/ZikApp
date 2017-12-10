@@ -1,8 +1,9 @@
 package com.example.frankson.zikapp;
 
+import android.graphics.drawable.ColorDrawable;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.MenuItem;
 
 public class ChikungunyaInfo extends AppCompatActivity {
@@ -15,6 +16,8 @@ public class ChikungunyaInfo extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Chikungunya");
         actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.verde_legal)));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.verde_legal));
     }
 
     @Override

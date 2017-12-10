@@ -1,8 +1,11 @@
 package com.example.frankson.zikapp;
 
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 public class DengueInfo extends AppCompatActivity {
@@ -15,6 +18,10 @@ public class DengueInfo extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Dengue");
         actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.verde_legal)));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.verde_legal));
+
+
     }
 
     @Override

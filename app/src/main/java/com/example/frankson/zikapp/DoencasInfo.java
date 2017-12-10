@@ -1,6 +1,8 @@
 package com.example.frankson.zikapp;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +25,8 @@ public class DoencasInfo extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Doenças causadas");
         actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.verde_legal)));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.verde_legal));
 
         List doencas = new ArrayList<String>();
         doencas.add("Dengue");
@@ -30,7 +34,7 @@ public class DoencasInfo extends AppCompatActivity {
         doencas.add("Chikungunya");
 
         listViewDoenca = (ListView) findViewById(R.id.list_view_doencas);
-        ArrayAdapter<String> AdapterDoenca = new ArrayAdapter<String>(DoencasInfo.this,android.R.layout.simple_list_item_1,doencas);
+        ArrayAdapter<String> AdapterDoenca = new ArrayAdapter<String>(DoencasInfo.this,R.layout.listview_doenca_item,doencas);
 
         listViewDoenca.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
