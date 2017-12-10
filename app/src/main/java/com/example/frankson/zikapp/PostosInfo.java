@@ -70,7 +70,7 @@ public class PostosInfo extends AppCompatActivity {
         postos.add("UPA da Santa Felicia");
 
         listView = (ListView) findViewById(R.id.list_view_postos);
-        ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(PostosInfo.this,android.R.layout.simple_list_item_1,postos);
+        ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(PostosInfo.this,R.layout.listview_doenca_item,postos);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
